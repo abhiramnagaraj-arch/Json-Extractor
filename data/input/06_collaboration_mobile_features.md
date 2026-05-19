@@ -1,0 +1,127 @@
+# Collaboration and mobile features
+
+This file is retrieval-facing content for vector-store ingestion. The answers have been cleaned to remove copied or generic case-description text, TOC/index artifacts, repeated response boilerplate, and noisy separators.
+
+## How to use the Rcloud feature in the email account?
+
+ID: `how_to_use_the_rcloud_feature_in_the_email_account`
+Category: Collaboration
+Subcategory: Rcloud
+Source section: How to use the Rcloud feature in the email account?
+
+Alternate questions:
+- How do I use the rcloud feature in the email account?
+- How can I use the rcloud feature in the email account?
+
+Answer:
+Rcloud is a cloud storage feature that allows you to store, create documents(excel, word and ppt), manage, and share files directly from your email account. - https://support.rediffmailpro.com/article/rcloud-file-management-step-by-step-guide/ Steps to Use Rcloud: 1. Access Rcloud - Login to Webmail - Click on Rcloud from the left navigation menu 2. Upload Files / Folders - Click New (+) Select: - Upload File - Upload Folder 3. Create Files (Word / Excel / PPT) - Click New (+) Choose: - Create Document (Word file) - Create Spreadsheet (Excel file) - Create Presentation (PPT file) - Enter file name and start editing 4. Organize Files - Create folders using Create Folder - Rename / move files as needed - Delete unwanted files 5. Share Files - Select file → Click Share - Enter recipient email IDs - Set permissions (edit) - Send link 6. Manage Shared Files - View shared items in Shared section - Modify permissions Notes: - Files can be accessed anytime from webmail - Helps in easy collaboration and file sharing - Supports document creation directly inside Rcloud
+
+Keywords: use, rcloud, collaboration
+
+---
+
+## How to enable Rcloud and video conference feature?
+
+ID: `how_to_enable_rcloud_and_video_conference_feature`
+Category: Admin Panel
+Subcategory: Feature Enablement
+Source section: How to enable Rcloud and video conference feature?
+
+Alternate questions:
+- How do I enable rcloud and video conference feature?
+- How can I enable rcloud and video conference feature?
+
+Answer:
+You can enable Rcloud and Video Conference features using Group Policy in the Admin Panel. Separate policies and groups must be created for each feature. - https://support.rediffmailpro.com/article/rediffmail-enterprise-how-to-assign-rcloud-video-conference-licenses/ Steps to Enable Features: - Login to Admin Panel - Activate Features - Go to Group Policy → Group Management Activate: - RCLOUD - ONSCREEN-Video-Conference - Create Separate Policies - Go to Group Policy → View Policy → Add Policy Create: - One policy for Rcloud - One policy for Video Conference - Assign license → Click Submit - Create Separate Groups - Go to Group Policy → Group Management → Add Group Create: - One group for Rcloud - One group for Video Conference - Assign respective policies to each group - Keep Group Owner ID's Blank Assign Feature to Users (Single User): Option 1: While Creating User: - Go to Single User → Add User - Enter user details In Select Group Policy, choose: - Rcloud policy - Video Conference policy (if required) - Click Create / Submit Option 2: For Existing User: - Go to Single User → User Details - Search and select the user - Click Edit icon In Select Group Policy, assign: - Rcloud policy - Video Conference policy - Click Update Notes: - Separate policy and group is required for each feature - You can assign both features to the same user - Changes may take some time to reflect - Once enabled, users will see Rcloud and Video Conference options in webmail
+
+Keywords: rcloud, video, conference, enablement
+
+---
+
+## What is Rbol?
+
+ID: `what_is_rbol`
+Category: Collaboration
+Subcategory: rBol FAQ
+Source section: Rediffmail Enterprise – Rbol messenger
+
+Alternate questions:
+- How do I rbol?
+- How can I rbol?
+
+Answer:
+rBol is a secure instant messenger app for businesses available on iOS, Android, and on webmail for Rediffmail Enteprise users.
+
+Keywords: rbol, collaboration, faq
+
+---
+
+## As an administrator, can I set restrictions of type of files that can be shared through Rbol?
+
+ID: `as_an_administrator_can_i_set_restrictions_of_type_of_files_that_can_be_shared_through_rbo`
+Category: Collaboration
+Subcategory: rBol FAQ
+Source section: Rediffmail Enterprise – Rbol messenger
+
+Alternate questions:
+- How do I as an administrator, can i set restrictions of type of files that can be shared through rbol?
+- How can I as an administrator, can i set restrictions of type of files that can be shared through rbol?
+
+Answer:
+Yes, the administrator can decide what file extensions can be shared through rbol chats, they can set this restrictions through admin panel.
+
+Keywords: administrator, restrictions, type, files, shared, rbol, collaboration, faq
+
+---
+
+## How do I install the Rediffmail Professional app on an Android device?
+
+ID: `how_do_i_install_the_rediffmail_professional_app_on_an_android_device`
+Category: Mobile App
+Subcategory: Installation
+Source section: Rediffmail Professional Installation on Android Device
+
+Alternate questions:
+- How can I install the rediffmail professional app on an android device?
+
+Answer:
+- Rediffmail Professional Installation on Android Device Please follow the steps given below to install Rediffmail Professional App on your Android device. STEP 1: Go to Google Playstore & type Rediffmail Professional, Click on Install. - https://play.google.com/store/search?q rediffmail+professional&c apps&hl en_IN STEP 2: Once the app is installed, it will ask you to accept the Terms & Conditions, kindly click on ACCEPT STEP 3: After you accept, you will see the screen to give your email address, kindly give your complete address as seen below & click on Proceed. STEP 4: - Mention the password of your account, click Sign in STEP 5: Once the login details given are correct, then you be logged in & see the mails. STEP 6: You can go to settings or folder view by clicking the Icon on the top left side. STEP 7: - You can see more folders by clicking on “Show more folders”
+
+Keywords: install, professional, app, android, device, installation
+
+---
+
+## How do I install the Rediffmail Professional app on an iOS device?
+
+ID: `how_do_i_install_the_rediffmail_professional_app_on_an_ios_device`
+Category: Mobile App
+Subcategory: Installation
+Source section: Rediffmail Professional Installation On iOS Device
+
+Alternate questions:
+- How can I install the rediffmail professional app on an ios device?
+
+Answer:
+- Rediffmail Professional Installation On iOS Device Please follow the steps given below to install Rediffmail Professional App on your iOS device. Go to the Apple store & type Rediffmail Professional, Click on Install. - https://apps.apple.com/gb/app/rediffmail-professional/id1273956234 Once the app is installed, it will ask you to accept the Terms & Conditions, kindly click on AGREE After you accept, you will see the screen to give your email address, kindly give your complete address as seen below & click on Proceed. - Mention the password of your account, click Login Once the login process is successful, then on the 1st login, you will see Quick Tour that explains how to use the app. Once the login details given are correct, then you be logged in & see the emails. You can go to settings or folder view by clicking the Icon on the top left side. - You can see more folders by clicking on “Show more folders”
+
+Keywords: install, professional, app, ios, device, installation
+
+---
+
+## How is Rbol different than other public social instant messengers?
+
+ID: `how_is_rbol_different_than_other_public_social_instant_messengers`
+Category: Collaboration
+Subcategory: rBol FAQ
+Source section: Rediffmail Enterprise – Rbol messenger
+
+Alternate questions:
+- How do I how is rbol different than other public social instant messengers?
+- How can I how is rbol different than other public social instant messengers?
+
+Answer:
+One of the important differences is that rBol works with your employees work email addresses & not their mobile numbers thereby maintaining the complete privacy of the user. Does Rbol need a license? Yes, rBol is a licensed product if you want your users to install & use them on their mobiles. It is available as a regular chat feature in webmail However the email administrator has the option to disallow chat feature to their users. This setting can be applied through admin panel. Does the Redimail app & Rbol need separate login? No, If the user has already installed the Redimail Professional app on the same mobile then no separate login is needed for rBol. It works with a Single Sign-on facility & the user will get logged in automatically in the rBol app however if the user has not installed the Redimail Professional app on the same mobile then login details for rBol are needed. Does Rbol support multimedia sharing? Yes, Exchange of text, multimedia attachments like Images, Audio, Video & documents is allowed. What Permissions does Rbol have? As a group administrator, you can set read-only, view & post, sub-admin permissions for members of the group. Does rbol have the facility to automatically add new users in their respective groups? Yes, Dynamic groups can also be created based on various parameters like employee role, city, designation, department, etc. This would allow users to be automatically part of those groups that exist based on these parameters. Does rBol only work on mobile? rBol is a mobile app for instant messages but it also syncs with the webmail. So, it is not necessary that both the members in a chat conversation should chat only from mobile. One user can chat on mobile while the other can reply from his webmail account. Is it possible to get deleted chats? Yes, Audit trail of communication transactions is available for compliance.
+
+Keywords: rbol, different, other, public, social, instant, messengers, collaboration, faq
+
+---

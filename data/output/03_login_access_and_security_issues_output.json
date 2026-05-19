@@ -1,0 +1,66 @@
+[
+  {
+    "section_id": "how_to_resolve_email_address_does_not_exist_or_password_is_incorrect_issue",
+    "title": "How to Resolve “Email Address Does Not Exist or Password is Incorrect” Issue",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "This SOP explains why the error “This email address does not exist or the password is incorrect” appears and provides steps for users to reset their password or get assistance from their email administrator.",
+    "faqs": []
+  },
+  {
+    "section_id": "how_to_resolve_you_have_been_signed_out_since_your_session_is_invalid_issue",
+    "title": "How to Resolve “You Have Been Signed Out Since Your Session is Invalid” Issue",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "This SOP explains why the “You have been signed out since your session is invalid” message appears and how an administrator can remove email access restrictions for the user. -",
+    "faqs": []
+  },
+  {
+    "section_id": "how_to_resolve_sorry_login_failed_please_retry_issue",
+    "title": "How to Resolve “Sorry. Login Failed. Please Retry!” Issue",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "This SOP explains why the error “Sorry. Login failed. Please retry!” appears and how users can correct their login credentials. -",
+    "faqs": []
+  },
+  {
+    "section_id": "how_to_resolve_login_failed_error_v_message_seen_in_webmail_due_to_idprotect_security_feat",
+    "title": "How to Resolve Login Failed [Error:V] message seen in Webmail, Due to IdProtect Security Feature",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "Purpose: To explain the cause of the error \"Login Failed [Error:V]\" and guide both users and administrators on how to verify and approve login patterns under the IdProtect feature. - Background The error \"Login Failed [Error:V]\" occurs when: IdProtect (network login protection) is enabled for the domain. The user tries to log in from a new or unrecognized network/IP. The login is blocked until the new pattern is verified. This security feature helps prevent unauthorized access and notifies both the user and the admin of any new login patterns. Verification Methods: There are two ways to verify a login pattern: - ✅ 1. User-Based Verification Steps: The user should check their alternate email address or registered mobile number. Open the message received with the verification link and code. Click the link and enter the code provided in the message. Once verified, login will be allowed from that network. - ✅ 2. Admin-Based Verification Steps: Admin logs in to the Admin Email Account. - Navigate to: Admin Page → Other Services → Suspicious Login Report Click on the “Notification Sent” tab (not the default tab). Search for the affected user/email address and click Submit. Review the login pattern details. Click “Accept” to approve the new login pattern.",
+    "faqs": []
+  },
+  {
+    "section_id": "how_to_resolve_login_failed_error_b_not_authorized_due_to_idprotect_security",
+    "title": "How to Resolve Login Failed [Error B]: Not Authorized Due to IdProtect Security",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "Purpose: To assist in resolving the error \"Login Failed [Error B]: Not Authorized\" which occurs when a login pattern (network/IP) has been explicitly rejected under the IdProtect feature, and only an admin can override this and allow access. Video Tutorial - https://support.rediffmailpro.com/article/suspicious-login-report/ The IdProtect feature secures email access by validating login patterns (networks or IPs). If a user or admin rejects a new login pattern, the user will see: - Login Failed [Error B]: Not Authorized In such cases, only the admin can approve or restore access for the rejected pattern. - Resolution Steps: Admin to Approve Rejected Login Pattern - Admin Login Log in to the Admin Email Account with valid credentials. - Access Suspicious Login Report - Navigate to: Admin Page → Other Services → Suspicious Login Report - View Rejected Patterns Click the tab labeled “User/Admin Rejected”. In the search bar, enter the affected user’s email address and click Search. - Approve the Rejected Login Pattern Review the listed rejected login pattern(s). Click “Accept” to approve the network pattern. Once accepted, the user will be able to log in using that network.",
+    "faqs": []
+  },
+  {
+    "section_id": "how_to_resolve_error_sending_sms_due_to_incorrect_mobile_number",
+    "title": "How to Resolve “Error Sending SMS” Due to Incorrect Mobile Number",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "This SOP explains how to resolve login issues when Two Factor Authentication (TFA) is enabled and the user encounters an “Error Sending SMS” message because the registered mobile number is incorrect. TFA sends an OTP (One-Time Password) to the registered mobile number, which is required along with the account password to access the mailbox. -",
+    "faqs": []
+  },
+  {
+    "section_id": "how_to_resolve_error_processing_request_101_due_to_missing_mobile_number",
+    "title": "How to Resolve “Error Processing Request #101” Due to Missing Mobile Number",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "This SOP explains how to resolve login issues when Two Factor Authentication (TFA) is enabled, but the user does not have a mobile number registered. TFA requires an OTP (One-Time Password) sent to the registered mobile number, which is necessary along with the account password to access the mailbox. -",
+    "faqs": []
+  },
+  {
+    "section_id": "resolving_webmail_login_error_processing_request_101_tfa_issue",
+    "title": "Resolving Webmail Login - Error Processing Request #101 (TFA Issue)",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "Background When TFA is enabled for a user, the system sends a 4-digit passcode to the user’s registered mobile number. The user can only log in after entering: - Their email password - The OTP (passcode) sent to their mobile If no mobile number is registered, login fails with: - “Error processing request #101” This is a common issue and must be resolved by an administrator.",
+    "faqs": []
+  }
+]

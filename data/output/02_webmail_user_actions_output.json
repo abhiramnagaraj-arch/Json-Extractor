@@ -1,0 +1,82 @@
+[
+  {
+    "section_id": "how_to_add_a_signature_in_webmail",
+    "title": "How to Add a Signature in Webmail",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "Steps to Add an Email Signature: - Login to Webmail Open your browser and go to your webmail login page. Enter your email ID and password, then click Login. - Access Mail Settings Once logged in, click on your profile icon at the top-right corner of the screen. - From the dropdown menu, select “Mail Settings.” - Add Signature - Inside Mail Settings, locate and click on “Add Signature.” Enter your desired signature content in the editor (text, contact info, disclaimer, etc.). You may also use formatting options like bold, italic, links, etc., if available. Once completed, click “Save” to apply the signature to your outgoing emails. Notes: The signature will be automatically appended to every email you send. You can come back and edit or remove the signature at any time by revisiting the same settings.",
+    "faqs": []
+  },
+  {
+    "section_id": "how_to_change_password_of_your_email_account_webmail",
+    "title": "How to Change Password of Your Email Account (Webmail)",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "Steps to Change Your Email Password: - Login to Webmail Open your browser and go to the webmail login page. Enter your email ID and password, then click Login. - Open Settings After logging in, click on the Settings icon (located at the top-right corner of the page). - Change Password - In the settings menu, click on “Change Password.” Enter your current password, followed by the new password. - Confirm the new password and click “Save” or “Submit.” Password Tips: Use a strong password that includes uppercase, lowercase, numbers, and special characters. Avoid using personal information or common patterns. Do not share your password with anyone.",
+    "faqs": []
+  },
+  {
+    "section_id": "how_to_update_alternate_email_id_and_mobile_number_webmail",
+    "title": "How to Update Alternate Email ID and Mobile Number (Webmail)",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "Steps to Update Alternate Email and Mobile Number: - Login to Webmail Open your browser and go to the webmail login page. Enter your email ID and password, then click Login. - Access Settings Click on the Settings icon located at the top-right corner of the screen. - Go to Profile Details - Click on “Mail Settings.” And Select “Profile Details.” - Authenticate with Your Password Enter your current email account password to access profile editing options. - Update Information In the profile section, you will see fields such as: - Alternate Email ID - Mobile Number Make the necessary updates to either or both fields. - Save Changes After editing, click “Save” to apply the changes.",
+    "faqs": []
+  },
+  {
+    "section_id": "how_to_create_a_rule_in_your_email_account_webmail",
+    "title": "How to Create a Rule in Your Email Account (Webmail)",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "Steps to Create an Email Rule: - Login to Webmail Go to the webmail login page in your browser. Enter your email ID and password, then click Login. - Open Settings Click on the Settings icon at the top-right corner of the page. - Navigate to Rule Settings - Click on “Mail Settings.” - Select “Manage Email Rules.” - Create a New Rule - Click on “Add Rule” or “Create Rule.” Define your rule criteria: - From (sender email address) / To (recipient address) - Subject (keywords in subject line) Choose the desired action, such as: - Move to a specific folder Auto-forward to another email address (Want a copy in this mailbox, Yes/ No) - Save the Rule Click “Save” or “Apply” to activate the rule. Example Use Cases: Automatically move newsletters to a \"Promotions\" folder. Forward all emails from a specific client to another address. Send important alerts to a custom folder for easy access.",
+    "faqs": []
+  },
+  {
+    "section_id": "how_to_add_auto_forwarding_in_your_email_account_webmail",
+    "title": "How to Add Auto-Forwarding in Your Email Account (Webmail)",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "Steps to Add Auto-Forwarding: - Login to Webmail Open your browser and go to the webmail login page. Enter your email ID and password, then click Login. - Access Settings Click on the Settings icon at the top-right corner. - Navigate to Auto Forward Settings - Click on “Mail Settings.” - Then click on “Auto Forward.” - Configure Forwarding Options Enter the email address to which you want to forward all incoming emails. Choose one of the following options: ✅ Yes, leave a copy of the messages – A copy remains in your inbox. ❌ No, delete the messages once they have been forwarded – Messages are not retained in your inbox. - Verify Forwarding Address A confirmation email will be sent to the forwarding address you entered. The recipient must click the verification link in the email to complete the setup. Once verified, auto-forwarding will become active.",
+    "faqs": []
+  },
+  {
+    "section_id": "how_to_set_up_auto_response_in_your_email_account_webmail",
+    "title": "How to Set Up Auto-Response in Your Email Account (Webmail)",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "Steps to Add an Auto-Response: - Login to Webmail Open your browser and go to the webmail login page. Enter your email ID and password, then click Login. - Access Settings Click on the Settings icon at the top-right corner of the screen. - Go to Auto-Response Settings - Click “Mail Settings.” - Then select “Auto Response.” - Enable Auto-Response Toggle the Auto-Response option to ON/Enable. - Set Your Auto-Responder Message Enter the message you want to be sent automatically (e.g., vacation notice, out-of-office reply). You may include contact details or alternative emails if needed. - Define the Time Period Set a start and end date for the auto-response to be active. The system will automatically deactivate the response after the selected period ends. - Save Settings Click “Save” to activate the auto-response.",
+    "faqs": []
+  },
+  {
+    "section_id": "how_to_sort_email_with_filter_options_in_webmail",
+    "title": "How to Sort Email with Filter Options in Webmail",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "Steps to Apply a Filter Login to your email account via Webmail. On the Top bar, in left side, you will be Filter icon. Click the Filter icon (funnel) at the top of the email list. Select one of the options based on your need (e.g., “Unread” to see unread emails). The email list will refresh and show results matching your selected filter. - 📥 1. Unread Description: Shows only the emails that have not been opened or read. Use Case: Helps you focus on pending or new emails that require your attention.: - 🚩 2. Flagged Description: Displays emails that you have marked with a flag for follow-up or importance. Use Case: Useful to revisit important emails you've marked previously (e.g., pending approvals, critical updates).: - 📬 3. To Me Description: Filters emails that were sent directly to your email ID (not just CC or BCC). Use Case: Prioritize emails where you're the primary recipient and action may be expected from you.: - 👤 4. Mentions Me Description: Shows emails in which you are mentioned (e.g., @yourname) in the message body. Use Case: Quickly locate conversations or threads where you're being referred to or tagged.: - 📎 5. Attachment Description: Displays only the emails that include one or more file attachments. Use Case: Easily find emails containing documents, images, or other shared files.: - 📅 6. Calendar Invite Description: Filters emails that are meeting invitations or calendar requests. Use Case: Helpful when you want to view or respond to meeting requests quickly.: - 🗓️ 7. Date Filter Description: Allows you to filter emails based on a specific date or date range. Use Case: Ideal for locating emails received on or between certain dates (e.g., end-of-month reports, last week’s updates).:",
+    "faqs": []
+  },
+  {
+    "section_id": "how_to_select_and_move_emails_in_bulk_webmail",
+    "title": "How to Select and Move Emails in Bulk (Webmail)",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "Steps to Move Emails in Bulk - Login to Webmail Go to the webmail login page and sign in using your email credentials. - Use the Search Box In the top-right corner, click on the settings icon to open Advanced Search. To apply filters (e.g., sender, subject, date), click on the Advanced Search icon (small funnel icon). - View Search Results Emails matching your search/filter criteria will appear. - Select All Emails Matching Search After search results appear, click the option: “Delete all mails matching search criteria” located on the top-right side. - Click on “Move” Option You will see“Move to Folder” icon (usually a folder icon or dropdown). Choose the destination folder from the list. - Confirm Action - Type “Move” Emails will be moved in bulk to the selected folder. - Wait for a confirmation message or system response before navigating away",
+    "faqs": []
+  },
+  {
+    "section_id": "how_to_delete_emails_in_bulk_webmail",
+    "title": "How to Delete Emails in Bulk (Webmail)",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "Steps to Delete Emails in Bulk: - Login to Webmail Go to the webmail login page. Enter your email ID and password, then click Login. - Open the Advanced Search Panel Locate the Search box at the top-right corner of the mailbox. On the far-right side of the search box, click the Advanced Search icon (usually a small gear or filter icon). - Set Your Search Criteria Use the filters provided to narrow down the emails you want to delete. Filters include: - From (sender email) / To/ Subject / Attachment (with/without) / Date Range Once filters are set, click Search to display the matching emails. - Delete All Matching Emails After search results appear, click the option: “Delete all mails matching search criteria” located on the top-left side. A confirmation prompt will appear. Type “delete” to confirm the action. - System Will Begin Deleting Emails Once confirmed, the system will start deleting all emails matching the search criteria.",
+    "faqs": []
+  },
+  {
+    "section_id": "how_to_recall_an_email_webmail_only",
+    "title": "How to Recall an Email (Webmail Only)",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "Steps to Recall a Sent Email - Login to Webmail Go to your organization's webmail login page and enter your credentials and click Login. - Open Sent Email Click on the “Sent” folder in the left navigation pane and Open the email you wish to recall. - Click the “Recall Mail” Option Just below the subject line, you will see multiple options: Show full headers | Report Spam | Save copy to RCloud | View blocked images | Recall Mail - 👉 Click on “Recall Mail” on the far-right side - System Will Process the Recall The system checks if the recipient has already read the email. If unread, the mail is recalled successfully. If read, the recall fails, and you will be notified. After initiating a recall, you will get a confirmation email with one of the following messages: - ✅ “Mail has been successfully recalled.” - ❌ “Mail is already read by the receiver — recall failed.” - 📌 Important Conditions to Know 🔒 Recall works only for internal users (same domain, e.g., @yourcompany.com). ❌ Recall does not work for external domains. 🕒 Email can only be recalled if it is unread by the recipient. 📧 You will receive a status email confirming whether the recall was successful or failed. ✅ When Can You Use This Feature? You accidentally sent an email to a wrong internal recipient. The recipient has not yet read the email. You are using the webmail interface (this feature is not available in mobile or third-party email clients).",
+    "faqs": []
+  }
+]

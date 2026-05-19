@@ -1,0 +1,482 @@
+[
+  {
+    "section_id": "case_1_how_to_create_an_email_address_in_the_admin_panel",
+    "title": "Case 1: How to Create an Email Address in the Admin Panel",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "This SOP outlines the steps for creating a new email address from the Admin Panel and customizing the user creation form as per organizational requirements.\nRespond to Administrator and do necessary changes in admin panel.\nSteps to Create a New Email Address\nLogin to Admin Account:\nAccess your Admin Email Account.\nClick the profile icon on the top-right corner of the screen.\nSelect “Admin Page” from the dropdown.\nNavigate to Single User Section:\nOn the left-hand menu, click “Single User.”\nSelect “Add User.”\nFill in User Details:\nA form will appear with fields to input the user’s information.\nEnter the required details such as:\nEmail ID\nDomain\nMailbox Space\n(Other optional details like Name, Mobile Number, etc.)\nSubmit the Form:\nOnce all required fields are filled, click “Create” or “Submit” to complete user creation.\nCustomizing the User Creation Form (Optional)\nIf there are fields that are not relevant for your organization and you wish to make them non-mandatory:\nUnder the “Single User” section, go to “Customize Add User Form.”\nYou can then select or deselect fields to set them as non-mandatory.\nNote:\nThe following fields are always mandatory and cannot be made optional:\nEmail ID\nDomain\nMailbox Space\nAll other fields can be toggled based on your requirements.",
+    "faqs": []
+  },
+  {
+    "section_id": "case_2_how_to_delete_an_email_address_in_the_admin_panel",
+    "title": "Case 2: How to Delete an Email Address in the Admin Panel",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "To guide administrators on how to delete a user email account through the Admin Panel and how to track deletion activities for audit purposes.\n======================================================================\nRespond to Administrator and do necessary changes in admin panel.\nSteps to Delete an Email Address\nLogin to Admin Account\nAccess your Admin Email account using valid credentials.\nClick on the profile icon located at the top-right corner.\nSelect “Admin Page” from the dropdown menu.\nNavigate to the User Management Section\nIn the left-hand menu, click on “Single User.”\nThen click on “User Details.”\nSearch for the User\nUse the search bar to enter the user’s email address or username.\nWait for the search results to load.\nDelete the User\nIn the search results, locate the user you wish to delete.\nOn the right side of the user row, click on the delete icon (🗑️).\nConfirm the deletion when prompted to permanently remove the user.\nAudit & Activity Tracking\nTo check deletion logs or activity history:\nGo to the left-hand menu and click on “MIS Reports.”\nSelect “Activity Report.”\nUse the available filter options to:\nSearch by action type (e.g., deletion)\nFilter by admin username\nFilter by date range\nReview the report to verify:\nWhich user was deleted\nDate and time of deletion\nAdministrator who performed the action",
+    "faqs": []
+  },
+  {
+    "section_id": "case_3_how_to_change_password_of_an_email_address_in_the_admin_panel",
+    "title": "Case 3: How to Change password of an Email Address in the Admin Panel",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "To guide administrators on how to reset or change the password of a user's email account through the Admin Panel, including optional enforcement of password change on next sign-in.\n======================================================================Respond to Administrator and do necessary changes in admin panel.\nSteps to Change User Password\nLogin to Admin Account\nLog in to your Admin Email account using valid credentials.\nClick the profile icon located at the top-right corner.\nFrom the dropdown, select “Admin Page.”\nNavigate to User Management\nIn the left-hand menu, click “Single User.”\nThen select “User Details.”\nSearch for the User\nUse the search bar to enter the email address or username of the user whose password needs to be changed.\nWait for the search results to display.\nReset Password (Option 1: Direct Reset)\nIn the search results, locate the correct user row.\nOn the right side, click the Password icon (🔒).\nA prompt will appear to enter the new password.\nYou can also select the checkbox for “Change password at next sign-in” if you want the user to set a new password after logging in.\nReset Password (Option 2: Through Edit Panel)\nAlternatively, click the Edit icon (✏️) on the user’s row.\nA panel will slide in from the right side.\nIn this panel, go to the second tab titled “Change Password.”\nEnter the new password and confirm it.\n(Optional) Select or leave unchecked the “Change password at next sign-in” checkbox based on whether the user should be forced to update the password after logging in.",
+    "faqs": []
+  },
+  {
+    "section_id": "case_4_how_to_give_subadmin_rights_to_an_email_address_in_the_admin_panel",
+    "title": "Case 4: How to Give Sub-admin rights to an Email Address in the Admin Panel",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "To guide administrators in assigning admin rights (full or limited) to other users, enabling them to act as sub-administrators with specific roles and responsibilities.\n---------------------------------------------------------------------------------------------------Respond to Administrator and do necessary changes in admin panel.\nSteps to Assign Admin Rights / Create a Sub-Administrator\nLogin to Admin Account\nLog in to your Admin Email account using valid credentials.\nClick on the profile icon located at the top-right corner.\nFrom the dropdown, select “Admin Page.”\nNavigate to User Management\nIn the left-hand menu, click “Single User.”\nSelect “User Details.”\nSearch for the User\nUse the search bar to enter the email address or username of the user you want to assign admin rights to.\nWait for the results to populate.\nAssign Admin Rights (Option 1: Via Admin Rights Icon)\nIn the user row on the right side, click the Admin Rights icon (🛡️).\nA panel will appear with the option to assign:\nFull admin rights (access to all features), or\nLimited admin rights (e.g., only permission to add users).\nSelect the permissions based on the required role and confirm.\nAssign Admin Rights (Option 2: Via Edit Panel)\nAlternatively, click the Edit icon (✏️) on the user row.\nA side panel will open from the right-hand side.\nNavigate to the fifth tab labeled “Admin Rights.”\nChoose between:\nFull Admin Access, or\nCustom Permissions (e.g., only add users, no delete/change password access).\nSave changes to apply the assigned rights.\nExamples of Sub-Administrator Roles\nUser1 → Sub-admin with only add user rights\n(Cannot delete or change user passwords)\nUser2 → Sub-admin with add and delete user rights\n(Cannot change passwords but can manage user accounts)\nAdditional Notes\nYou can create multiple sub-administrators with varied permissions as per your organizational requirements.\nSub-admins will only have access to the features specifically assigned to them.\nChanges in permissions can be updated at any time using the same steps.",
+    "faqs": []
+  },
+  {
+    "section_id": "case_5_how_to_create_an_alias_for_an_email_account",
+    "title": "Case 5: How to Create an Alias for an Email Account",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_6_how_to_activatedeactivate_email_account_in_the_admin_panel",
+    "title": "Case 6: How to Activate/Deactivate Email Account in the Admin panel.",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_7_how_to_resolve_login_failed_errorv_message_seen_in_webmail_due_to_idprotect_security_feature",
+    "title": "Case 7: How to Resolve Login Failed [Error:V] message seen in Webmail, Due to IdProtect Security Feature.",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "Resolving Login Failed [Error:V] Due to IdProtect Security Feature.\nPurpose:\nTo explain the cause of the error \"Login Failed [Error:V]\" and guide both users and administrators on how to verify and approve login patterns under the IdProtect feature.\nRespond to Administrator and do necessary changes in admin panel.\nBackground\nThe error \"Login Failed [Error:V]\" occurs when:\nIdProtect (network login protection) is enabled for the domain.\nThe user tries to log in from a new or unrecognized network/IP.\nThe login is blocked until the new pattern is verified.\nThis security feature helps prevent unauthorized access and notifies both the user and the admin of any new login patterns.\nVerification Methods\nThere are two ways to verify a login pattern:\n✅ 1. User-Based Verification\nSteps:\nThe user should check their alternate email address or registered mobile number.\nOpen the message received with the verification link and code.\nClick the link and enter the code provided in the message.\nOnce verified, login will be allowed from that network.\n✅ 2. Admin-Based Verification\nSteps:\nAdmin logs in to the Admin Email Account.\nNavigate to:\nAdmin Page → Other Services → Suspicious Login Report\nClick on the “Notification Sent” tab (not the default tab).\nSearch for the affected user/email address and click Submit.\nReview the login pattern details.\nClick “Accept” to approve the new login pattern.\nImportant Notes\nOnce the pattern is verified, the same network/IP will be considered trusted.\nEnsure that any verification (user or admin) is only done after confirming the legitimacy of the login attempt.\nAdmins can use this feature to monitor and control access on a per-user basis.",
+    "faqs": []
+  },
+  {
+    "section_id": "case_8_how_to_resolve_login_failed_error_b_not_authorized_due_to_idprotect_security",
+    "title": "Case 8: How to Resolve Login Failed [Error B]: Not Authorized Due to IdProtect Security",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_9_resolving_webmail_login__error_processing_request_101_tfa_issue",
+    "title": "Case 9: Resolving Webmail Login - Error Processing Request #101 (TFA Issue)",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "To resolve Error #101 encountered during webmail login when Two Factor Authentication (TFA) is enabled, but the user's mobile number is missing or not configured.\nRespond to Administrator and do necessary changes in admin panel.\nBackground\nWhen TFA is enabled for a user, the system sends a 4-digit passcode to the user’s registered mobile number.\nThe user can only log in after entering:\nTheir email password\nThe OTP (passcode) sent to their mobile\nIf no mobile number is registered, login fails with:\n“Error processing request #101”\nThis is a common issue and must be resolved by an administrator.\nSteps to Resolve Error #101 by Adding/Updating Mobile Number\nAdmin Login\nLog in to the Admin Email Account.\nClick the profile icon on the top-right corner.\nSelect “Admin Page” from the dropdown.\nGo to User Details\nIn the left-hand menu, click on “Single User.”\nThen select “User Details.”\nSearch for the Affected User\nUse the search bar to enter the user’s email address.\nWait for the user details to appear in the search results.\nEdit User Information\nClick the Edit icon (✏️) next to the user entry.\nA panel will open from the right-hand side.\nUpdate Mobile Number\nNavigate to the “Personal Information” tab within the edit panel.\nLocate the Mobile Number field.\nAdd or update the mobile number with a valid, active number.\nClick “Save” to apply the changes.\nUser Login Post Update\nOnce the mobile number is updated:\nThe user will receive the OTP/passcode during their next login attempt.\nThe user must enter both the password and passcode to successfully log in.",
+    "faqs": []
+  },
+  {
+    "section_id": "case_10_how_to_create_email_accounts_in_bulk",
+    "title": "Case 10: How to Create Email Accounts in Bulk",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "To guide administrators on how to create multiple email accounts at once using the Bulk User feature in the Admin Panel.\nRespond to Administrator and do necessary changes in admin panel\nSteps to Create Email Accounts in Bulk\nLogin to Admin Account\nLog in to your Admin Email Account.\nClick the profile icon at the top-right corner.\nSelect “Admin Page” from the dropdown.\nNavigate to Bulk User Section\nIn the left-hand menu, click on “Bulk User.”\nSelect “Add Bulk User.”\nDownload and Prepare the Sample CSV File\nClick “Download Sample CSV” on the top-right corner.\nOpen the CSV and fill in user data as required.\n✅ Mandatory Fields:\nEmail ID\nMailbox Space\nDomain\n⚙️ Optional Fields:\nAll other fields are optional and can be made non-mandatory via\nSingle User → Customize Add User Form.\nPassword: You can either mention the password of leave it blank for system to auto-generate the password\nUpload the Completed CSV File\nGo back to Bulk User → Add Bulk User.\nUpload the prepared CSV file.\nSystem Validation & Error Handling\nOnce uploaded:\nIf the CSV is valid, the bulk job will start automatically.\nIf there are invalid fields or missing mandatory data, the system will reject the file.\nAn email notification with error details will be sent to the logged-in admin email address.\n✅ Action: Check your email inbox for any error notifications, correct the data, and re-upload if necessary.\nMonitor Bulk Upload Status\nClick on the “Status” tab beside the “Sample CSV” tab.\nHere you can track:\nJob status: Queued, Processing, Completed\nNumber of successful vs. failed entries\nError descriptions for failed entries",
+    "faqs": []
+  },
+  {
+    "section_id": "case_11_how_to_delete_email_accounts_in_bulk",
+    "title": "Case 11: How to Delete Email Accounts in Bulk",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "To guide administrators on how to remove multiple email accounts at once using the Bulk User feature in the Admin Panel.\nRespond to Administrator and do necessary changes in admin panel\nSteps to Delete Email Accounts in Bulk\nLogin to Admin Account\nLog in to the Admin Email Account.\nClick the profile icon at the top-right corner.\nSelect “Admin Page” from the dropdown.\nNavigate to Bulk User Section\nIn the left-hand menu, click on “Bulk User.”\nSelect “Delete Bulk User.”\nDownload and Prepare the Sample CSV File\nClick “Download Sample CSV” from the top-right corner.\nOpen the CSV file and fill in the required user data.\n✅ Mandatory Fields:\nUser ID (Email address without domain or as per format)\nDomain\nForceDelete (Set to yes or true to confirm deletion)\n⚠️ If any of these fields are missing or incorrectly formatted, the deletion process will be rejected.\nUpload the Completed CSV File\nReturn to the Delete Bulk User section.\nUpload your prepared CSV file.\nSystem Processing & Email Notification\nIf the file is valid, the bulk delete job will be initiated.\nOnce the job is completed, the admin will receive an email notification summarizing:\nTotal number of accounts processed\nSuccessful deletions\nAny failures or errors\nMonitor Bulk Delete Status\nGo to the “Status” tab beside the “Sample CSV” tab to check job progress.\nStatus will indicate: Queued, Processing, or Completed.\nAny failed records will include error messages for correction.\nImportant Notes\nDeleting an email account is permanent — all mailbox data will be lost unless backed up beforehand.\nDouble-check each entry in the CSV to avoid accidental deletions.\nOnly the admin who performs the action will receive the confirmation email.\nWebmail SOP Index\nSOP for basis cases related to Webmail.",
+    "faqs": []
+  },
+  {
+    "section_id": "case_1_how_to_add_a_signature_in_webmail",
+    "title": "Case 1: How to Add a Signature in Webmail",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "This SOP outlines the steps for creating a new email address from the Admin Panel and customizing the user creation form as per organizational requirements.\nRespond to users and do necessary changes in their webmail account.\nSteps to Add an Email Signature\nLogin to Webmail\nOpen your browser and go to your webmail login page.\nEnter your email ID and password, then click Login.\nAccess Mail Settings\nOnce logged in, click on your profile icon at the top-right corner of the screen.\nFrom the dropdown menu, select “Mail Settings.”\nAdd Signature\nInside Mail Settings, locate and click on “Add Signature.”\nEnter your desired signature content in the editor (text, contact info, disclaimer, etc.).\nYou may also use formatting options like bold, italic, links, etc., if available.\nOnce completed, click “Save” to apply the signature to your outgoing emails.\nNotes:\nThe signature will be automatically appended to every email you send.\nYou can come back and edit or remove the signature at any time by revisiting the same settings.",
+    "faqs": []
+  },
+  {
+    "section_id": "case_2_how_to_change_password_of_your_email_account_webmail",
+    "title": "Case 2: How to Change Password of Your Email Account (Webmail)",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "To help users securely change their email account password from within the webmail interface.\nRespond to users and do necessary changes in their webmail account.\nSteps to Change Your Email Password\nLogin to Webmail\nOpen your browser and go to the webmail login page.\nEnter your email ID and password, then click Login.\nOpen Settings\nAfter logging in, click on the Settings icon (located at the top-right corner of the page).\nChange Password\nIn the settings menu, click on “Change Password.”\nEnter your current password, followed by the new password.\nConfirm the new password and click “Save” or “Submit.”\nPassword Tips:\nUse a strong password that includes uppercase, lowercase, numbers, and special characters.\nAvoid using personal information or common patterns.\nDo not share your password with anyone.",
+    "faqs": []
+  },
+  {
+    "section_id": "case_3_how_to_create_a_rule_in_your_email_account_webmail",
+    "title": "Case 3: How to Create a Rule in Your Email Account (Webmail)",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "To help users create custom rules or filters in their email account to automatically manage incoming emails.\nRespond to users and do necessary changes in their webmail account.\nSteps to Create an Email Rule\nLogin to Webmail\nGo to the webmail login page in your browser.\nEnter your email ID and password, then click Login.\nOpen Settings\nClick on the Settings icon at the top-right corner of the page.\nNavigate to Rule Settings\nClick on “Mail Settings.”\nSelect “Manage Email Rules.”\nCreate a New Rule\nClick on “Add Rule” or “Create Rule.”\nDefine your rule criteria:\nFrom (sender email address) / To (recipient address)\nSubject (keywords in subject line)\nChoose the desired action, such as:\nMove to a specific folder\nAuto-forward to another email address (Want a copy in this mailbox, Yes/ No)\nSave the Rule\nClick “Save” or “Apply” to activate the rule.\nExample Use Cases:\nAutomatically move newsletters to a \"Promotions\" folder.\nForward all emails from a specific client to another address.\nSend important alerts to a custom folder for easy access.",
+    "faqs": []
+  },
+  {
+    "section_id": "case_4_how_to_add_autoforwarding_in_your_email_account_webmail",
+    "title": "Case 4: How to Add Auto-Forwarding in Your Email Account (Webmail)",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "To help users automatically forward incoming emails from their webmail account to another email address.\nRespond to users and do necessary changes in their webmail account.\nSteps to Add Auto-Forwarding\nLogin to Webmail\nOpen your browser and go to the webmail login page.\nEnter your email ID and password, then click Login.\nAccess Settings\nClick on the Settings icon at the top-right corner.\nNavigate to Auto Forward Settings\nClick on “Mail Settings.”\nThen click on “Auto Forward.”\nConfigure Forwarding Options\nEnter the email address to which you want to forward all incoming emails.\nChoose one of the following options:\n✅ Yes, leave a copy of the messages – A copy remains in your inbox.\n❌ No, delete the messages once they have been forwarded – Messages are not retained in your inbox.\nVerify Forwarding Address\nA confirmation email will be sent to the forwarding address you entered.\nThe recipient must click the verification link in the email to complete the setup.\nOnce verified, auto-forwarding will become active.\nImportant Notes:\nIf you do not see the “Auto Forward” option under Mail Settings, your administrator may have disabled this feature for your account or domain.\nYou can modify or disable the auto-forward rule at any time through the same settings menu.",
+    "faqs": []
+  },
+  {
+    "section_id": "case_5_how_to_set_up_autoresponse_in_your_email_account_webmail",
+    "title": "Case 5: How to Set Up Auto-Response in Your Email Account (Webmail)",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "To help users set up an automatic reply (vacation responder) that sends a predefined message to incoming emails during a specific period.\nRespond to users and do necessary changes in their webmail account.\nSteps to Add an Auto-Response\nLogin to Webmail\nOpen your browser and go to the webmail login page.\nEnter your email ID and password, then click Login.\nAccess Settings\nClick on the Settings icon at the top-right corner of the screen.\nGo to Auto-Response Settings\nClick “Mail Settings.”\nThen select “Auto Response.”\nEnable Auto-Response\nToggle the Auto-Response option to ON/Enable.\nSet Your Auto-Responder Message\nEnter the message you want to be sent automatically (e.g., vacation notice, out-of-office reply).\nYou may include contact details or alternative emails if needed.\nDefine the Time Period\nSet a start and end date for the auto-response to be active.\nThe system will automatically deactivate the response after the selected period ends.\nSave Settings\nClick “Save” to activate the auto-response.\nImportant Notes:\nAuto-response will only be sent once per sender per day, even if they email multiple times.\nIf auto-response isn’t functioning, check with your domain administrator to ensure the feature is not disabled.",
+    "faqs": []
+  },
+  {
+    "section_id": "case_6_how_to_update_alternate_email_id_and_mobile_number_webmail",
+    "title": "Case 6: How to Update Alternate Email ID and Mobile Number (Webmail)",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "To guide users on how to update their alternate email ID and mobile number in their webmail account, which are used for password recovery and security verifications.\nRespond to users and do necessary changes in their webmail account.\nSteps to Update Alternate Email and Mobile Number\nLogin to Webmail\nOpen your browser and go to the webmail login page.\nEnter your email ID and password, then click Login.\nAccess Settings\nClick on the Settings icon located at the top-right corner of the screen.\nGo to Profile Details\nClick on “Mail Settings.”  And Select “Profile Details.”\nAuthenticate with Your Password\nEnter your current email account password to access profile editing options.\nUpdate Information\nIn the profile section, you will see fields such as:\nAlternate Email ID\nMobile Number\nMake the necessary updates to either or both fields.\nSave Changes\nAfter editing, click “Save” to apply the changes.\nImportant Notes:\nIf you do not see the \"Profile Details\" option under Mail Settings, it means your administrator has restricted access to this feature.\nMake sure the alternate email and mobile number are valid and accessible, as they are used for:\nPassword reset\nTwo-Factor Authentication (TFA)\nSuspicious login verification.",
+    "faqs": []
+  },
+  {
+    "section_id": "case_7_how_to_delete_emails_in_bulk_webmail",
+    "title": "Case 7: How to Delete Emails in Bulk (Webmail)",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_8_how_to_recall_an_email_webmail_only",
+    "title": "Case 8: How to Recall an Email (Webmail Only)",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "To guide users on how to recall (undo sending) an email that has been mistakenly sent to internal recipients, using the Recall Mail feature available in Webmail.\n🔄 Steps to Recall a Sent Email\nLogin to Webmail\nGo to your organization's webmail login page  and enter your credentials and click Login.\nOpen Sent Email\nClick on the “Sent” folder in the left navigation pane and Open the email you wish to recall.\nClick the “Recall Mail” Option\nJust below the subject line, you will see multiple options:\nShow full headers | Report Spam | Save copy to RCloud | View blocked images | Recall Mail\n👉 Click on “Recall Mail” on the far-right side\nSystem Will Process the Recall\nThe system checks if the recipient has already read the email.\nIf unread, the mail is recalled successfully.\nIf read, the recall fails, and you will be notified.\nAfter initiating a recall, you will get a confirmation email with one of the following messages:\n✅ “Mail has been successfully recalled.”\n❌ “Mail is already read by the receiver — recall failed.”\n📌 Important Conditions to Know\n🔒 Recall works only for internal users (same domain, e.g., @yourcompany.com).\n❌ Recall does not work for external domains.\n🕒 Email can only be recalled if it is unread by the recipient.\n📧 You will receive a status email confirming whether the recall was successful or failed.\n✅ When Can You Use This Feature?\nYou accidentally sent an email to a wrong internal recipient.\nThe recipient has not yet read the email.\nYou are using the webmail interface (this feature is not available in mobile or third-party email clients).",
+    "faqs": []
+  },
+  {
+    "section_id": "case_9_how_to_sort_email_with_filter_options_in_webmail",
+    "title": "Case 9: How to Sort Email with Filter Options in Webmail",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "This SOP provides guidance on how to use the built-in filter options in Webmail to easily sort, search, and manage emails based on specific criteria.\n✅ Steps to Apply a Filter\nLogin to your email account via Webmail.\nOn the Top bar, in left side, you will be Filter icon.\nClick the Filter icon (funnel) at the top of the email list.\nSelect one of the options based on your need (e.g., “Unread” to see unread emails).\nThe email list will refresh and show results matching your selected filter.\n📥 1. Unread\nDescription: Shows only the emails that have not been opened or read.\nUse Case: Helps you focus on pending or new emails that require your attention.\n🚩 2. Flagged\nDescription: Displays emails that you have marked with a flag for follow-up or importance.\nUse Case: Useful to revisit important emails you've marked previously (e.g., pending approvals, critical updates).\n📬 3. To Me\nDescription: Filters emails that were sent directly to your email ID (not just CC or BCC).\nUse Case: Prioritize emails where you're the primary recipient and action may be expected from you.\n👤 4. Mentions Me\nDescription: Shows emails in which you are mentioned (e.g., @yourname) in the message body.\nUse Case: Quickly locate conversations or threads where you're being referred to or tagged.\n📎 5. Attachment\nDescription: Displays only the emails that include one or more file attachments.\nUse Case: Easily find emails containing documents, images, or other shared files.\n📅 6. Calendar Invite\nDescription: Filters emails that are meeting invitations or calendar requests.\nUse Case: Helpful when you want to view or respond to meeting requests quickly.\n🗓️ 7. Date Filter\nDescription: Allows you to filter emails based on a specific date or date range.\nUse Case: Ideal for locating emails received on or between certain dates (e.g., end-of-month reports, last week’s updates).",
+    "faqs": []
+  },
+  {
+    "section_id": "case_10_how_to_select_and_move_emails_in_bulk_webmail",
+    "title": "Case 10: How to Select and Move Emails in Bulk (Webmail)",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "To guide users on how to move multiple emails at once from one folder to another using Webmail’s advanced search and bulk selection features.\n🧭 Steps to Move Emails in Bulk\nLogin to Webmail\nGo to the webmail login page and sign in using your email credentials.\nUse the Search Box\nIn the top-right corner, click on the settings icon to open Advanced Search.\nTo apply filters (e.g., sender, subject, date), click on the Advanced Search icon (small funnel icon).\nView Search Results\nEmails matching your search/filter criteria will appear.\nSelect All Emails Matching Search\nAfter search results appear, click the option:\n“Delete all mails matching search criteria” located on the top-right side.\nClick on “Move” Option\nYou will see“Move to Folder” icon (usually a folder icon or dropdown).\nChoose the destination folder from the list.\nConfirm Action\nType “Move”\nEmails will be moved in bulk to the selected folder.\nWait for a confirmation message or system response before navigating away",
+    "faqs": []
+  },
+  {
+    "section_id": "case_1_webmail_login_case_reported_by_user_email_address_does_not_exist_or_password_is_incorrect",
+    "title": "Case 1: Webmail Login case reported by user: “Email Address Does Not Exist or Password is Incorrect”",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_2_webmail_login_case_reported_by_user_you_have_been_signed_out_since_your_session_is_invalid",
+    "title": "Case 2: Webmail Login case reported by user: “You Have Been Signed Out Since Your Session is Invalid”",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_3_webmail_login_case_reported_by_user__sorry_login_failed_please_retry",
+    "title": "Case 3: Webmail Login case reported by user:  “Sorry. Login Failed. Please Retry!”",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_4_webmail_login_case_reported_by_user__error_sending_sms",
+    "title": "Case 4: Webmail Login case reported by user:  “Error Sending SMS”",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_5_webmail_login_case_reported_by_user__error_processing_request_101",
+    "title": "Case 5: Webmail Login case reported by user:  “Error Processing Request #101”",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_6_how_to_edit_an_email_account_from_the_admin_panel",
+    "title": "Case 6: How to Edit an Email Account from the Admin Panel",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_7_how_to_configure_email_account_in_ms_outlook_using_pop",
+    "title": "Case 7: How to Configure Email Account in MS Outlook Using POP",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_8_how_to_configure_email_account_in_ms_outlook_using_imap",
+    "title": "Case 8: How to Configure Email Account in MS Outlook Using IMAP",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_1_how_to_resolve_email_address_does_not_exist_or_password_is_incorrect_issue",
+    "title": "Case 1: How to Resolve “Email Address Does Not Exist or Password is Incorrect” Issue",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_2_how_to_resolve_you_have_been_signed_out_since_your_session_is_invalid_issue",
+    "title": "Case 2: How to Resolve “You Have Been Signed Out Since Your Session is Invalid” Issue",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_3_how_to_resolve_sorry_login_failed_please_retry_issue",
+    "title": "Case 3: How to Resolve “Sorry. Login Failed. Please Retry!” Issue",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_4_how_to_resolve_error_sending_sms_due_to_incorrect_mobile_number",
+    "title": "Case 4: How to Resolve “Error Sending SMS” Due to Incorrect Mobile Number",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_5_how_to_resolve_error_processing_request_101_due_to_missing_mobile_number",
+    "title": "Case 5: How to Resolve “Error Processing Request #101” Due to Missing Mobile Number",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_6_how_to_edit_an_email_account_from_the_admin_panel",
+    "title": "Case 6: How to Edit an Email Account from the Admin Panel",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_7_how_to_configure_email_account_in_ms_outlook_using_pop",
+    "title": "Case 7: How to Configure Email Account in MS Outlook Using POP",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_8_how_to_configure_email_account_in_ms_outlook_using_imap",
+    "title": "Case 8: How to Configure Email Account in MS Outlook Using IMAP",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_1_sorry_no_mailbox_here_by_that_name_511",
+    "title": "Case 1: Sorry, no mailbox here by that name. (#5.1.1)",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_2_you_have_been_blocked_by_the_recipient",
+    "title": "Case 2: You have been blocked by the recipient",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_3_sorry_i_couldnt_find_any_host_named_domain_512_where_domain_can_be_any_recipient_domain",
+    "title": "Case 3: Sorry, I couldn't find any host named <domain>” (#5.1.2)”, where <domain> can be any recipient domain.",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_4_you_are_not_allowed_to_send_mails_to_this_domain_please_contact_recipients_domain_administrator",
+    "title": "Case 4: You are not allowed to send mails to this domain. Please contact recipient's domain administrator",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_5_you_do_not_have_permission_to_send_this_message_to_this_distribution_list",
+    "title": "Case 5: You Do Not Have Permission to Send This Message to This Distribution List",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_5_you_cannot_send_mails_from_this_domain_kindly_contact_customer_support",
+    "title": "Case 5: You cannot send mails from this domain. Kindly contact customer support",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_6_your_email_could_not_be_sent_at_this_time_please_contact_the_administrator",
+    "title": "Case 6: Your email could not be sent at this time. Please contact the administrator",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_7_mailbox_not_found_remote_host_said_550_570_message_rejected_per_spf_policy_",
+    "title": "Case 7: MailBox not found Remote host said: 550 5.7.0 message rejected per spf policy ?",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_8_554_suspicious_virus_code_detected_message_not_accepted_577",
+    "title": "Case 8: 554 Suspicious virus code detected, message not accepted (#5.7.7)",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_9_message_blocked_your_message_to_abcdtestdcom_has_been_blocked_see_technical_details_below_for_more_information_the_response_was_message_bounces_due_to_organizational_settings",
+    "title": "Case 9: Message Blocked Your message to abcd@testd.com has been blocked. See technical details below for more information. The response was Message bounces due to organizational settings",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_10_from_mail_delivery_system_mailerdaemonsophos_abddtestcom_all_hosts_for_testcom_have_been_failing_for_a_long_time_and_retry_time_not_reached",
+    "title": "Case 10: From: Mail Delivery System Mailer-Daemon@Sophos abdd@test.com all hosts for 'test.com' have been failing for a long time (and retry time not reached)",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_11_mailbox_not_found_remote_host_said_550_the_mail_server_detected_your_message_as_spam_and_prevented_delivery",
+    "title": "Case 11: MailBox not found Remote Host said 550 “the mail server detected your message as spam and prevented delivery”",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_12_554_domain_used_for_authentication_is_different_than_the_senders_domain_571",
+    "title": "Case 12: 554 Domain used for Authentication is different than the sender's Domain (#5.7.1)",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_13_553_sorry_your_envelope_sender_is_in_my_badmailfrom_list_571_refid__mbfd",
+    "title": "Case 13: 553 sorry, your envelope sender is in my badmailfrom list (#5.7.1). REF-ID : MBFD",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_14_the_user_is_not_allowed_to_receive_this_mail_because_of_the_filtering_policy_please_check_with_the_recipients_domain_administrator",
+    "title": "Case 14: The user is not allowed to receive this mail because of the Filtering policy. Please check with the recipient's domain administrator.",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_15_requested_action_not_taken_mailbox_unavailable",
+    "title": "Case 15: Requested action not taken: mailbox unavailable",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_16_remote_host_said_553_sorry_that_domain_isnt_in_my_list_of_allowed_rcpthosts_no_valid_cert_for_gatewaying_571_giving_up_on_11925215552",
+    "title": "Case 16: Remote host said: 553 sorry, that domain isn't in my list of allowed rcpthosts; no valid cert for gatewaying (#5.7.1) ?Giving up on 119.252.155.52",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_17_cname_lookup_failed_temporarily_443",
+    "title": "Case 17: CNAME_lookup_failed_temporarily._(#4.4.3)",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_18_the_user_is_not_allowed_to_receive_mails_from_you_please_check_with_recipient",
+    "title": "Case 18: The user is not allowed to receive mails from you. Please check with recipient.",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_21_you_are_not_allowed_to_send_mails_to_this_domain_please_contact_recipients_domain_administrator",
+    "title": "Case 21: You are not allowed to send mails to this domain. Please contact recipient's domain administrator",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_23_sorry_i_wasnt_able_to_establish_an_smtp_connection_with_domain25_441_im_not_going_to_try_again_this_message_has_been_in_the_queue_too_long__where_domain_can_be_any_recipient_domain",
+    "title": "Case 23: Sorry, I wasn't able to establish an SMTP connection with <domain>”25 (#4.4.1) I'm not going to try again; this message has been in the queue too long.  where <domain> can be any recipient domain.",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "This SOP explains the bounce error “Sorry, I wasn't able to establish an SMTP connection with <domain>:25 (#4.4.1) I'm not going to try again; this message has been in the queue too long.” where <domain> can be any recipient domain, which occurs when the sender mail server is unable to establish an SMTP connection with the recipient mail server.\nReason for Issue\nThe sender server is unable to complete the SMTP handshake with the recipient server.\nSteps to Resolve the Issue\nStep 1: Contact Customer Support\nRaise an email request with customer support and share the complete bounce error message.\nStep 2: Await Investigation\nWait for confirmation from the support team after they investigate the SMTP connectivity issue.\nNotes\nThis is a server-level connectivity issue and cannot be resolved from the user’s side.\nEmail delivery will resume once the SMTP connection issue is resolved.",
+    "faqs": []
+  },
+  {
+    "section_id": "case_24_the_email_you_are_trying_to_send_is_rejected_due_to_mailfiltering_policy__please_check_with_the_administrator_531",
+    "title": "Case 24: The email you are trying to send is rejected due to Mail-Filtering policy . Please check with the administrator (#5.3.1)",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  },
+  {
+    "section_id": "case_25_the_user_is_not_allowed_to_receive_mails_with_attachments_of_certain_typesize_please_check_with_recipient",
+    "title": "CASE 25: The user is not allowed to receive mails with attachments of certain type/size. Please check with recipient.",
+    "category_tags": [],
+    "short_snippet": "",
+    "description": "",
+    "faqs": []
+  }
+]
