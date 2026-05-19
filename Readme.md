@@ -1,50 +1,54 @@
- This project is a modular data extraction pipeline that converts semi-structured Markdown text into strictly structured
-  JSON data using Python and Pydantic.
+The JSON Extractor project is a modular Python-based pipeline designed to transform unstructured or semi-structured
+  documents (Markdown, TXT, and Word .docx) into structured, validated JSON or NDJSON data.
 
-  Here is a breakdown of how the components work together:
+  Here is the detailed flow and working of the code:
 
-  1. The Flow of Data
-  The script follows a "Linear Pipeline" pattern:
-  Load File → Split into Sections → Extract Raw Metadata → Clean & Transform → Validate → Export.
+  1. Orchestration & Entry Point
+   * process_all.sh: This shell script acts as a batch processor. It scans the data/input/ directory for supported files,
+     removes their extensions, and runs the main Python application for each file, naming the output accordingly.
+   * src/main.py: The primary entry point. It handles command-line arguments (input/output paths, formats) and coordinates
+     the lifecycle of a single file through the pipeline stages: Load → Parse → Transform → Validate → Export.
 
-  2. Component Breakdown
+  2. Loading Phase (src/pipeline/loader.py)
+   * The FileLoader class is responsible for reading source files.
+   * DOCX Handling: It uses the python-docx library to read Word documents. Crucially, it converts specific patterns (like
+     "Case 123:") into Markdown headings (## Case 123:) so that the rest of the pipeline can treat them as consistent
+     sections.
+   * It yields the raw string content of the files to the next stage.
 
-  A. The Loader (src/pipeline/loader.py)
-   * Purpose: Reads the input files.
-   * Logic: It checks if the path is a single file or a folder. It uses a Generator (yield) to read files one by one, which
-     keeps memory usage low even if you have hundreds of documents.
+  3. Parsing Phase (src/pipeline/parser.py)
+   * split_sections: Uses regular expressions to split the document into logical chunks based on ## Markdown headings. Each
+     chunk typically represents one FAQ or support case.
+   * extract_metadata: For each section, it applies several regex patterns to pull out specific fields such as:
+       * ID: Unique identifier for the entry.
+       * Title: The text following the ## heading.
+       * Category/Subcategory: Organizational metadata.
+       * Answer/Case Description: The main body of the section (supports multi-line extraction).
+       * Keywords: Tagging information.
 
-  B. The Parser (src/pipeline/parser.py)
-  This is the "Brain" of the extraction.
-   * Splitting: It uses Regex to find the ## Markdown headers. Every time it sees ##, it knows a new question/answer block
-     has started.
-   * Metadata Extraction: It uses specific Regular Expression patterns to find keys like ID:, Category:, and Answer:.
-       * Example Pattern: r"ID:\s*(.*)" looks for the literal text "ID:", skips any spaces, and captures everything after it.
+  4. Transformation & Cleaning Phase
+   * src/pipeline/transformer.py: Normalizes the raw data. It generates a section_id from the title if one is missing and
+     prepares the final dictionary structure.
+       * Note: It contains utility methods like build_tags and generate_snippet to further enrich data (e.g., filtering
+         stopwords and summarizing text).
+   * src/pipeline/cleaner.py: A helper class that provides "surgical" cleaning:
+       * Removes Markdown symbols (bold, italic, backticks).
+       * Normalizes whitespace.
+       * Converts bullet points into full, readable sentences.
 
-  C. The Transformer & Cleaner (src/pipeline/transformer.py & cleaner.py)
-  Raw text from Markdown is often "noisy" (contains stars *, backticks `  ``, or extra newlines).
-   * Cleaning: The Cleaner removes Markdown symbols and normalizes whitespace. It also converts bullet points into full
-     sentences for the short_snippet.
-   * Transformation: The Transformer builds the category_tags. It takes the category, subcategory, keywords, and title,
-     merges them, removes "stopwords" (like a, an, the, is), and ensures you have a clean list of tags for searching.
+  5. Validation Phase (src/models/schema.py)
+   * The pipeline uses Pydantic (ExtractedDocument model) to enforce data integrity. Before any data is exported, it is
+     passed through this model to ensure all required fields are present and correctly typed. If a section is malformed, the
+     pipeline logs an error and skips that specific entry rather than crashing.
 
-  D. The Schema (src/models/schema.py)
-   * Purpose: Enforcement.
-   * Logic: It uses Pydantic. Before any JSON is saved, Pydantic checks the data. If a section_id is missing or faqs isn't a
-     list, the script will throw an error. This ensures your output is always "machine-readable" and never broken.
+  6. Exporting Phase (src/pipeline/exporter.py)
+   * The Exporter class handles saving the processed data to the data/output/ directory.
+   * It supports two formats:
+       * JSON: A single standard array of objects.
+       * NDJSON: Newline Delimited JSON, where each line is a separate JSON object (ideal for streaming or large datasets).
 
-  E. The Exporter (src/pipeline/exporter.py)
-   * Purpose: Saving the data.
-   * Logic: It takes the validated Python objects and converts them into a standard JSON array or NDJSON (Newline Delimited
-     JSON) format.
-
-  3. The Orchestrator (src/main.py)
-  This is the entry point that ties everything together. It handles the Command Line Arguments (like --input and --format)
-  and loops through the files provided by the Loader, passing them through the Parser, Transformer, and Exporter in order.
-
-  Summary of the "Rule-Based" Approach
-  Unlike AI, which can be unpredictable, this script is Rule-Based. It relies on the consistent structure of your Markdown
-  files (using ID:, Answer:, etc.). This makes it:
-   1. Extremely Fast: Processes dozens of files in milliseconds.
-   2. Deterministic: You get the exact same output every time you run it.
-   3. Cheap: It runs locally on your machine without needing an API key.
+  Directory Summary
+   * src/pipeline/: Contains the logic for each step of the processing.
+   * src/models/: Defines the "contract" or schema the data must follow.
+   * data/input/: Source files (.md, .docx, .txt).
+   * data/output/: Resulting structured data files.
